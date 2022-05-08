@@ -49,8 +49,14 @@
         padding: 14px 16px;
         list-style-type: none; /* Remove bullets */
       }
-    
-      /* MAINCONTENT */
+
+      /* ANIMATION */
+    .headermenu:hover {
+        animation:hvr-pop;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+      /* Centered MAINCONTENT */
     
     .centeredmaincontent img {
         display: block;
@@ -66,19 +72,6 @@
         border-top-color: mediumvioletred;
       }
 
-    .headermenu:hover {
-        animation:hvr-pop;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-    }
-
-    .centeredmaincontent img:hover {
-      animation:hvr-icon-bob;
-      animation-duration: 1.25s;
-      animation-iteration-count: infinite;
-    }
-
-    
     .centeredmaincontent h1 {
         color: mediumvioletred;
         text-decoration: underline plum;
@@ -99,7 +92,17 @@
           padding: 10px;
           font-family: 'Catamaran', sans-serif;
       }
+
+      /* ANIMATION */
+
+    .centeredmaincontent img:hover {
+      animation:hvr-icon-bob;
+      animation-duration: 1.25s;
+      animation-iteration-count: infinite;
+    }
     
+    /* Aside MAINCONTENT */
+
       .asidemaincontent {
         position: absolute;
         display: flex;
